@@ -42,3 +42,12 @@ be stored.
   should be sent in the body of the PATCH request, as a object:
   `{ likes: 10 }`), to update the toy on the server. Clicking on the button
   should also increase the number of likes on the DOM.
+
+## Features
+- Displays all toys on load (GET /toys)
+- Adds a new toy from the form (POST /toys)
+- Likes a toy (PATCH /toys/:id)
+- Donates a toy (DELETE /toys/:id)
+
+## Screenshot
+![Toy Tales App](./Screenshot 2026-05-12 134812.png)
